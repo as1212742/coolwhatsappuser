@@ -1,4 +1,4 @@
-var abcd=prompt();
+var abcd=prompt("type message if u want to send message everytime");
 	function call(){
 	var y=document.getElementsByClassName("_3AwwN")[0];
 	var x=y.children[1].childElementCount;
