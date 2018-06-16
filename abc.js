@@ -7,7 +7,7 @@ var abcd=prompt("message  to send  everytime they are online [leave blank if u d
 	if(count==0){
 	var date = new Date();
 	var abc=date.getHours() + ":" +date.getMinutes();
-	console.log(abc);
+	console.log("online: "+abc);
 	
 	count=1;
 	var inner=document.getElementsByClassName("_2S1VP copyable-text selectable-text")[0];
@@ -21,5 +21,5 @@ var abcd=prompt("message  to send  everytime they are online [leave blank if u d
 	count=0;
 	}
 	}var count=0;
-	setInterval(call,2000);
+	setInterval(call,1000);
 
